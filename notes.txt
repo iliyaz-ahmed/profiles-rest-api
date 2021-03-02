@@ -42,3 +42,20 @@ vagrant up
 next type,
 vagrant ssh
 
+
+to create venv:
+===============
+python -m venv ~/env
+
+
+To start project in django
+==============================
+django-admin startproject profiles_project
+
+to create another folder in project
+===================================
+python manage.py startapp profiles_api
+
+
+
+
