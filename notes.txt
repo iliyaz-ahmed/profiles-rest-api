@@ -57,5 +57,17 @@ to create another folder in project
 python manage.py startapp profiles_api
 
 
+to push into git
+=================
+git config --global user.email "ahmed.iliyaz96@gmail.com"
+
+git config --global user.name "Iliyas"
+
+git add .
+
+git commit -am "Created django project and app"
+
+
+
 
 
