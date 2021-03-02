@@ -67,6 +67,12 @@ git add .
 
 git commit -am "Created django project and app"
 
+to create migration
+=================
+python manage.py makemigrations profiles_api
+
+python manage.py migrate
+
 
 
 
