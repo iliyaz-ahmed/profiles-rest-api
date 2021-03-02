@@ -67,6 +67,8 @@ git add .
 
 git commit -am "Created django project and app"
 
+git push origin
+
 to create migration
 =================
 python manage.py makemigrations profiles_api
