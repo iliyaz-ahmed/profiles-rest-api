@@ -5,7 +5,7 @@ https://github.com/LondonAppDev/build-a-backend-api-python-drf-beginner-cheat-sh
 
 create ssh key
 ==============
-C:\Users\User\Documents\API projects\Project1-rest-api>ssh-keygen -t rsa -b 4096 -C "ahmed.iliyaz96@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "ahmed.iliyaz96@gmail.com"
 Generating public/private rsa key pair.
 Enter file in which to save the key (C:\Users\User/.ssh/id_rsa):
 Created directory 'C:\Users\User/.ssh'.
@@ -74,6 +74,39 @@ to create migration
 python manage.py makemigrations profiles_api
 
 python manage.py migrate
+
+
+note point:  for ssh access, only port 22 will work.
+
+
+
+
+Deploy project in AWS
+======================
+1)create an account free in aws free tier
+https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
+
+2)select services, in that select ec2.
+
+3)next, in the left side grid there will be keys option clcik that and paste SSH key.
+
+4)next, select services -> EC2 -> and click lauch instannce.
+
+5)next , search for "Ubuntu" or type AMI number and select particular instance and launch.
+
+6)load ssh files in cmd directory.
+
+7)next, open aws and click running instances and copy "Ipv4 dns id"
+
+8)next, paste in cmd.
+ssh ubuntu@ec2-3-141-85-78.us-east-2.compute.amazonaws.com
+
+9)by this server will be connected.
+
+10)Next, go to github and copy rar url of setup.sh file and paste in ..
+
+11)paste in termial as " curl -sL "url link" | sudo bash -
+
 
 
 
