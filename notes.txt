@@ -103,9 +103,11 @@ ssh ubuntu@ec2-3-141-85-78.us-east-2.compute.amazonaws.com
 
 9)by this server will be connected.
 
-10)Next, go to github and copy rar url of setup.sh file and paste in ..
+10)Next, go to github and copy raw url of setup.sh file and paste in ..
 
 11)paste in termial as " curl -sL "url link" | sudo bash -
+
+12)
 
 
 
